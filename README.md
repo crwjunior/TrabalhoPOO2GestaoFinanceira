@@ -1,18 +1,29 @@
-# TrabalhoPOO2GestaoFinanceira
+# Gestão Financeira POO
 
 
 ```JAVA
 
- __________________________      _________________      _________________________________
-|           Gasto          |    |      Ganho      |    |           Relatório             |
-|__________________________|    |_________________|    |_________________________________|
-| - tipo                   |    | - tipo          |    | - gerarRelatorioDeGastos()      |
-| - data                   |    | - data          |    | - gerarRelatorioDeGanhos()      |
-| - valor                  |    | - valor         |    | - gerarRelatorioDeSaldoMensal() |
-| - formaPagamento         |    |                 |    |                                 |
-|__________________________|    |_________________|    |                                 |
-                                                       |_________________________________|
-                                                       
+
+
+ __________________________          _________________________________
+|           Gastos         |        |           Relatórios            |
+|__________________________|        |_________________________________|
+| - tipo                   |------->| - gerarRelatorioDeGastos()      |
+| - data                   |        | - gerarRelatorioDeGanhos()      |
+| - valor                  |        | - gerarRelatorioDeSaldoMensal() |
+| - formaPagamento         |        |                                 |
+|__________________________|   +--->|                                 |
+                               |    |_________________________________|
+                               |
+ __________________            |
+|     Ganhos       |-----------+
+|__________________|
+| - tipo           |
+| - data           |
+| - valor          |
+|__________________|
+
+
 ```
                                                        
                                                        
